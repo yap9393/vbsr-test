@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400;1,700&family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+/* 1) */
+ /* Index */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    /* estos tres de arriba son parte del reseteo general  */
+    font-family: poppins, sans-serif;
+    text-align: center;
+}
+
+/* Navbar */
+.row{
+  align-items: center;
+}
+
+.col .col-item{
+  margin-top:3%;
+}
+
+@media (max-width: 1000px){
+ .col .col-item{
+  display:none;
+ }
+}
+
+.container .fullLogo{
+  width:200px;
+  }
+
+/* Body  */
+ body{
+    background-color: #ffffff;
+
+ }
+
+ .imagenLogo{
+  width:40%
+}
+
+.fondoRojo{
+  background-color:#dc3545;
+}
+
+.fondoAzul{
+  background-color: #1473b5;
+}
+
+.fondoAmarillo{
+  background-color: #fcd144;
+}
+
+.letraClara{
+  color:#ffffff;
+}
+
+
+/* Carrusel */
+.carouselConteiner{
+  position: relative;
+  z-index: 0;
+}
+
+.carouselContent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.tituloPpal{
+  font-size: 5em;
+  color:#ffffff;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5)
+ 
+}
+
+.subtituloPpal{
+  font-size: 3em;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+@media (max-width: 1100px){
+  .tituloPpal{
+    font-size: 3em;
+    color:#ffffff;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5)
+   
+  }
+  .subtituloPpal{
+    font-size: 2em;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 776px){
+  .tituloPpal{
+    font-size: 2.3em;
+    color:#ffffff;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5)
+   
+  }
+  .subtituloPpal{
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 500px){
+  .tituloPpal{
+    font-size: 1.8em;
+    color:#ffffff;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5)
+   
+  }
+  .subtituloPpal{
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+}
+
+/*  Main  */
+
+
+/* Divisor de secciones */
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  padding:3%;
+  margin-left:5%;
+  margin-right:5%
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    flex-direction: column; 
+  }
+}
+
+.left-text,
+.right-text {
+  flex-basis: 48%; 
+}
+
+.location-container .left-text{
+font-size: medium;
+}
+
+.cita{
+  color:#eb1b33;
+  font-size:xx-large;
+}
+
+.citado{
+  font-size: large;
+  color:#eb1b33;
+}
+
+.map{
+  width: 100%;
+  height: 400px;
+}
+
+.imageBanner{
+  width: 100%;
+  height:400px;
+  object-fit: cover;
+}
+
+/* Rental  */
+  .rental-cards-conteiner{
+    align-items: center;
+  }
+
+  .button-container{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+.pkg-price{
+  color:#eb1b33;
+  font-size: x-large;
+}
+
+.rental-cards-conteiner{
+  margin:5%;
+}
+
+@media (max-width: 768px) {
+  .rental-cards-conteiner{
+    margin: 13%;
+  }
+}
+
+.card-image{
+  height:300px;
+  object-fit:cover;
+}
+/* Footer */
+ .pieDePagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+
+ .pieDePaginaItem .logo-footer{
+ width: 200px;
+}
+
+.pieDePaginaItem{
+  width: 50%;
+  margin-top: 1%;
+}
+
+.logo-footer{
+  width: 200px;
+ }
+
+ .icon-footer{
+  width: 50%;
+  margin: 1%;
+  padding: 0;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+
+.pieDePaginaItem .icon-footer{
+  font-size: large;
+}
+
+@media (max-width: 1000px){
+  .pieDePagina .item-texto{
+   display:none;
+  }
+ }
+
+
+/* 2) */
+/* Alquiler y guarderia */
+
+ .listaAlquiler{
+  margin-top: 20px;
+  list-style-type:none
+}
+ .imagen-rental-stitch{
+  width: 350px;
+}
+.precioXDia{
+  font-size: 1.4em;
+  color:#DF3C3A;
+} 
+
+.btn-rental{
+  margin-bottom: 5%;
+}
+.texto-justificado{
+  text-align: justify;
+}
+.lista-precios{
+  list-style-type: none;
+  font-size: larger;
+}
+.texto-xxl{
+  
+  font-size: xx-large;
+
+}
+/* Tabla de servicios  */
+.tabla-precios {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-precios tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.tabla-precios td {
+  padding: 10px;
+}
+
+.servicio {
+  text-align: left;
+}
+
+.precio {
+  text-align: right;
+}
+
+
+/* Galeria */
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .galleryItem{
+  width: 600px; 
+  height: 300px;
+} */
+
+
+.imagenGaleria{
+  max-width: 600px;
+  max-height:300px
+}
+
+.imagenGaleria:hover{
+  width: 1000px;
+  object-fit: cover;
+  transition: 0.5s, ease;
+
+}
+
+/* contacto */
+.mapa-contacto{
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+/* formulario de contacto */
+.formulario {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.input-form {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-form-coments {
+  width: 100%;
+  height: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.long-box {
+  height: 150px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}

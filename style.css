@@ -270,6 +270,10 @@ font-size: medium;
   }
  }
 
+ .phone-number{
+  text-decoration: none;
+  color: black;
+ }
 
 /* 2) */
 /* Alquiler y guarderia */

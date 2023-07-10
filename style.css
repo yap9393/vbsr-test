@@ -50,6 +50,14 @@
 
 .fondoAmarillo{
   background-color: #fcd144;
+ 
+}
+
+.sticky-heading {
+  position: sticky;
+  top: 78px; 
+  background-color: #fcd144; 
+  z-index: 100; 
 }
 
 .letraClara{
@@ -273,6 +281,13 @@ font-size: medium;
  .imagen-rental-stitch{
   width: 350px;
 }
+
+@media (max-width: 400px){
+  .imagen-rental-stitch{
+    width: 300px;
+  }
+ }
+
 .precioXDia{
   font-size: 1.4em;
   color:#DF3C3A;
@@ -317,35 +332,90 @@ font-size: medium;
 
 
 /* Galeria */
-.galeria{
+
+.row {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-/* .galleryItem{
-  width: 600px; 
-  height: 300px;
-} */
 
-
-.imagenGaleria{
-  max-width: 600px;
-  max-height:300px
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-.imagenGaleria:hover{
-  width: 1000px;
-  object-fit: cover;
-  transition: 0.5s, ease;
-
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.galeria a{
+  text-decoration: none;
+  color: black;
+}
 /* contacto */
+.schedule-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* .left-text-container {
+  /* margin-bottom: 20px; */
+/* }  */
+
+.schedule-h3{
+  color: #333;
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.schedule-date{
+  font-size: 20px;
+}
+
+.left-text-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-text-container li {
+  margin-bottom: 5px;
+}
+
 .mapa-contacto{
   margin-top: 2%;
   margin-bottom: 2%;
-
 }
+
+
+@media (max-width: 400px){
+ .mapa-contacto{
+  max-width: 300px;
+ }
+ }
+
 /* formulario de contacto */
 .formulario {
   max-width: 500px;
@@ -390,3 +460,4 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
+

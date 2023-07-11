@@ -1,77 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400;1,700&family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap');
 /* 1) */
- /* Index */
+/* Index */
 
-*{
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;
-    /* estos tres de arriba son parte del reseteo general  */
-    font-family: poppins, sans-serif;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* reseteo general  */
+  font-family: poppins, sans-serif;
+  text-align: center;
 }
 
 /* Navbar */
-.row{
+.row {
   align-items: center;
 }
 
-.col .col-item{
-  margin-top:3%;
+.col .col-item {
+  margin-top: 3%;
 }
 
-@media (max-width: 1000px){
- .col .col-item{
-  display:none;
- }
-}
-
-.container .fullLogo{
-  width:200px;
+@media (max-width: 1000px) {
+  .col .col-item {
+    display: none;
   }
+}
+
+.container .fullLogo {
+  width: 200px;
+}
 
 /* Body  */
- body{
-    background-color: #ffffff;
+body {
+  background-color: #ffffff;
 
- }
-
- .imagenLogo{
-  width:40%
 }
 
-.fondoRojo{
-  background-color:#dc3545;
+.imagenLogo {
+  width: 40%
 }
 
-.fondoAzul{
+.fondoRojo {
+  background-color: #dc3545;
+}
+
+.fondoAzul {
   background-color: #1473b5;
 }
 
-.fondoAmarillo{
+.fondoAmarillo {
   background-color: #fcd144;
- 
+
 }
 
 .sticky-heading {
   position: sticky;
-  top: 78px; 
-  background-color: #fcd144; 
-  z-index: 100; 
+  top: 78px;
+  background-color: #fcd144;
+  z-index: 100;
 }
 
-.letraClara{
-  color:#ffffff;
+.letraClara {
+  color: #ffffff;
 }
 
 
 /* Carrusel */
-.carouselConteiner{
+.carouselConteiner {
   position: relative;
   z-index: 0;
 }
 
-.carouselContent{
+.carouselContent {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -81,73 +81,72 @@
   color: rgb(255, 255, 255);
 }
 
-.tituloPpal{
+.tituloPpal {
   font-size: 5em;
-  color:#ffffff;
+  color: #ffffff;
   text-shadow: 1px 1px 1px black;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.5)
- 
 }
 
-.subtituloPpal{
+.subtituloPpal {
   font-size: 3em;
   text-shadow: 1px 1px 1px black;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
 
-@media (max-width: 1100px){
-  .tituloPpal{
+@media (max-width: 1100px) {
+  .tituloPpal {
     font-size: 3em;
-    color:#ffffff;
+    color: #ffffff;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.5)
-   
   }
-  .subtituloPpal{
+
+  .subtituloPpal {
     font-size: 2em;
     text-shadow: 1px 1px 1px black;
     background-color: rgba(255, 255, 255, 0.5);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
   }
 }
 
-@media (max-width: 776px){
-  .tituloPpal{
+@media (max-width: 776px) {
+  .tituloPpal {
     font-size: 2.3em;
-    color:#ffffff;
+    color: #ffffff;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.5)
-   
   }
-  .subtituloPpal{
+
+  .subtituloPpal {
     font-size: 1.3em;
     text-shadow: 1px 1px 1px black;
     background-color: rgba(255, 255, 255, 0.5);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
   }
 }
 
-@media (max-width: 500px){
-  .tituloPpal{
+@media (max-width: 500px) {
+  .tituloPpal {
     font-size: 1.8em;
-    color:#ffffff;
+    color: #ffffff;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.5)
-   
   }
-  .subtituloPpal{
+
+  .subtituloPpal {
     font-size: 1em;
     text-shadow: 1px 1px 1px black;
     background-color: rgba(255, 255, 255, 0.5);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
   }
 }
@@ -159,98 +158,99 @@
 .section-container {
   display: flex;
   justify-content: space-between;
-  padding:3%;
-  margin-left:5%;
-  margin-right:5%
+  padding: 3%;
+  margin-left: 5%;
+  margin-right: 5%
 }
 
 @media (max-width: 768px) {
   .section-container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 }
 
 .left-text,
 .right-text {
-  flex-basis: 48%; 
+  flex-basis: 48%;
 }
 
-.location-container .left-text{
-font-size: medium;
+.location-container .left-text {
+  font-size: medium;
 }
 
-.cita{
-  color:#eb1b33;
-  font-size:xx-large;
+.cita {
+  color: #eb1b33;
+  font-size: xx-large;
 }
 
-.citado{
+.citado {
   font-size: large;
-  color:#eb1b33;
+  color: #eb1b33;
 }
 
-.map{
+.map {
   width: 100%;
   height: 400px;
 }
 
-.imageBanner{
+.imageBanner {
   width: 100%;
-  height:400px;
+  height: 400px;
   object-fit: cover;
 }
 
 /* Rental  */
-  .rental-cards-conteiner{
-    align-items: center;
-  }
+.rental-cards-conteiner {
+  align-items: center;
+}
 
-  .button-container{
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
+.button-container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
-.pkg-price{
-  color:#eb1b33;
+.pkg-price {
+  color: #eb1b33;
   font-size: x-large;
 }
 
-.rental-cards-conteiner{
-  margin:5%;
+.rental-cards-conteiner {
+  margin: 5%;
 }
 
 @media (max-width: 768px) {
-  .rental-cards-conteiner{
+  .rental-cards-conteiner {
     margin: 13%;
   }
 }
 
-.card-image{
-  height:300px;
-  object-fit:cover;
+.card-image {
+  height: 300px;
+  object-fit: cover;
 }
+
 /* Footer */
- .pieDePagina{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
- }
-
- .pieDePaginaItem .logo-footer{
- width: 200px;
+.pieDePagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.pieDePaginaItem{
+.pieDePaginaItem .logo-footer {
+  width: 200px;
+}
+
+.pieDePaginaItem {
   width: 50%;
   margin-top: 1%;
 }
 
-.logo-footer{
+.logo-footer {
   width: 200px;
- }
+}
 
- .icon-footer{
+.icon-footer {
   width: 50%;
   margin: 1%;
   padding: 0;
@@ -260,58 +260,70 @@ font-size: medium;
 }
 
 
-.pieDePaginaItem .icon-footer{
+.pieDePaginaItem .icon-footer {
   font-size: large;
 }
 
-@media (max-width: 1000px){
-  .pieDePagina .item-texto{
-   display:none;
+@media (max-width: 1000px) {
+  .pieDePagina .item-texto {
+    display: none;
   }
- }
+}
 
- .phone-number{
+
+.phone-number {
   text-decoration: none;
   color: black;
- }
+}
+
+.phone-number-white {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 
 /* 2) */
 /* Alquiler y guarderia */
 
- .listaAlquiler{
+.listaAlquiler {
   margin-top: 20px;
-  list-style-type:none
+  list-style-type: none
 }
- .imagen-rental-stitch{
+
+.imagen-rental-stitch {
   width: 350px;
 }
 
-@media (max-width: 400px){
-  .imagen-rental-stitch{
+@media (max-width: 400px) {
+  .imagen-rental-stitch {
     width: 300px;
   }
- }
+}
 
-.precioXDia{
+.precioXDia {
   font-size: 1.4em;
-  color:#DF3C3A;
-} 
+  color: #DF3C3A;
+}
 
-.btn-rental{
+.btn-rental {
   margin-bottom: 5%;
 }
-.texto-justificado{
+
+.texto-justificado {
   text-align: justify;
 }
-.lista-precios{
+
+.lista-precios {
   list-style-type: none;
   font-size: larger;
 }
-.texto-xxl{
-  
+
+.texto-xxl {
+
   font-size: xx-large;
 
 }
+
 /* Tabla de servicios  */
 .tabla-precios {
   width: 100%;
@@ -372,10 +384,11 @@ font-size: medium;
   }
 }
 
-.galeria a{
+.galeria a {
   text-decoration: none;
   color: black;
 }
+
 /* contacto */
 .schedule-container {
   background-color: #f5f5f5;
@@ -383,18 +396,14 @@ font-size: medium;
   border-radius: 5px;
 }
 
-/* .left-text-container {
-  /* margin-bottom: 20px; */
-/* }  */
-
-.schedule-h3{
+.schedule-h3 {
   color: #333;
   font-size: 23px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-.schedule-date{
+.schedule-date {
   font-size: 20px;
 }
 
@@ -408,17 +417,17 @@ font-size: medium;
   margin-bottom: 5px;
 }
 
-.mapa-contacto{
+.mapa-contacto {
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
 
-@media (max-width: 400px){
- .mapa-contacto{
-  max-width: 300px;
- }
- }
+@media (max-width: 400px) {
+  .mapa-contacto {
+    max-width: 300px;
+  }
+}
 
 /* formulario de contacto */
 .formulario {
@@ -464,4 +473,3 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
-

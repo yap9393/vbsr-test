@@ -12,17 +12,17 @@
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
+
 <body>
   <header>
     <nav>
       <div class="container">
         <div class="row">
           <div class="col">
-            <p class="col-item phone-number">(970)-476-2566</p>
+            <a class="col-item phone-number" href="tel:+19704762566">(970)-476-2566</a>
           </div>
           <div class="col">
-            <img class='fullLogo' src="..//Assets/imagenes/logo.png"
-                alt="logo completo de vista bahn ski rentals">
+            <img class='fullLogo' src="..//Assets/imagenes/logo.png" alt="logo completo de vista bahn ski rentals">
           </div>
           <div class="col">
             <p class="col-item">278 Hanson Ranch Road, Vail, CO 81657</p>
@@ -50,7 +50,7 @@
               <a class="nav-link" href="../pages/alquiler.html">Alquiler</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/guarderia.html">Guarderia/reparaciones</a>
+              <a class="nav-link" href="../pages/guarderia.html">Guarderia / reparaciones</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/galeria.html">Galeria</a>
@@ -92,14 +92,14 @@
             <ul>
               <li>Lunes a domingo de 8:30 a.m. a 5 p.m.</li>
             </ul>
-        
+
             <h3 class="schedule-h3">TEMPORADA ALTA:</h3>
             <p class="schedule-date">17dic - 22abr</p>
             <ul>
               <li>Domingo a jueves de 8 a.m. a 6 p.m.</li>
               <li>Viernes a sábado de 8 a.m. a 6:30 p.m.</li>
             </ul>
-        
+
             <h3 class="schedule-h3">FIN DE TEMPORADA: </h3>
             <p class="schedule-date">13abr - 23abr</p>
             <ul>
@@ -107,15 +107,6 @@
             </ul>
           </div>
         </div>
-        <!-- <div class="left-text">
-          <p class="texto-justificado">PRINCIPIO DE TEMPORADA: 12 de noviembre - 16 de diciembre</p>
-          <p class="texto-justificado">Lunes a domingo de 8:30 a.m. a 5 p.m.</p>
-          <p class="texto-justificado">TEMPORADA ALTA: 17 de diciembre - 22 de abril</p>
-          <p class="texto-justificado">Domingo a jueves de 8 a.m. a 6 p.m.</p>
-          <p class="texto-justificado">Viernes a sábado de 8 a.m. a 6:30 p.m.</p> 
-          <p class="texto-justificado">FIN DE TEMPORADA: 13 de abril - 23 de abril</p>
-          <p class="texto-justificado"> Lunes a Domingos 8 a.m. a  5:30 p.m.</p>
-        </div> -->
         <div class="right-text">
           <img class="imagen-rental-stitch" src="../Assets/imagenes/shopfrontv3.jpg">
           <p class="citado">Ven a visitarnos en 278 Hanson Ranch Rd, Vail, Co, 81657.</p>
@@ -126,7 +117,10 @@
       <h2 class="fondoAmarillo sticky-heading">Contacto</h2>
       <div class="section-container">
         <div class="left-text">
-          <iframe class="mapa-contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.442264702965!2d-106.3760569887492!3d39.63976017145643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a706d190f5a65%3A0xc7db20770e945556!2sVista%20Bahn%20Ski%20Rentals!5e0!3m2!1ses!2sar!4v1686095306262!5m2!1ses!2sar" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="mapa-contacto"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.442264702965!2d-106.3760569887492!3d39.63976017145643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a706d190f5a65%3A0xc7db20770e945556!2sVista%20Bahn%20Ski%20Rentals!5e0!3m2!1ses!2sar!4v1686095306262!5m2!1ses!2sar"
+            width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="right-text">
           <p> Dejanos un mensaje. ¡Intentaremos contestarte lo antes posible!</p>
@@ -134,35 +128,38 @@
             <label for="fnombre">Nombre:</label>
             <input class="input-form" type="text" id="fnombre" name="fnombre" placeholder="Juan" required="required">
             <label for="fapellido">Apellido:</label>
-            <input class="input-form" type="text" id="fapellido" name="fapellido" placeholder="Perez" required="required">
+            <input class="input-form" type="text" id="fapellido" name="fapellido" placeholder="Perez"
+              required="required">
             <label for="fmail">Mail:</label>
-            <input class="input-form" type="email" id="fmail" name="fmail" placeholder="juanperez@email.com" required="required">
+            <input class="input-form" type="email" id="fmail" name="fmail" placeholder="juanperez@email.com"
+              required="required">
             <label for="ftelefono">Teléfono:</label>
-            <input class="input-form" type="number" id="ftelefono" name="ftelefono" placeholder="115485658" required="required" maxlength="13">
+            <input class="input-form" type="number" id="ftelefono" name="ftelefono" placeholder="115485658"
+              required="required" maxlength="13">
             <label for="fcomentarios">Comentarios:</label>
-            <textarea class="input-form-coments long-box" id="fcomentarios" name="fcomentarios" placeholder="Motivo del contacto" required="required" maxlength="1000"></textarea>
+            <textarea class="input-form-coments long-box" id="fcomentarios" name="fcomentarios"
+              placeholder="Motivo del contacto" required="required" maxlength="1000"></textarea>
             <input type="submit" value="Enviar">
           </form>
-          
         </div>
       </div>
     </section>
-    
   </main>
   <footer class="pieDePagina fondoAzul letraClara">
-    <p class="pieDePaginaItem item-texto" >278 Hanson Ranch Road, Vail, CO</p>
-    <img class='pieDePaginaItem logo-footer' src="..//Assets/imagenes/logowhiteletters.png" alt="logo completo de vista bahn ski rentals">
-    <p class="pieDePaginaItem item-texto phone-number" >(970) 476-2566</p>
+    <p class="pieDePaginaItem item-texto">278 Hanson Ranch Road, Vail, CO</p>
+    <img class='pieDePaginaItem logo-footer' src="..//Assets/imagenes/logowhiteletters.png"
+      alt="logo completo de vista bahn ski rentals">
+    <a class="pieDePaginaItem item-texto phone-number-white" href="tel:+19704762566">(970)-476-2566</a>
   </footer>
-  
   <footer class="pieDePagina fondoAmarillo">
     <a class="icon-footer" href="https://www.facebook.com/vailvbsr"><i class="bi bi-facebook "></i></a>
     <a class="icon-footer" href="(970) 476-2566"><i class="bi bi-whatsapp  "></i></a>
     <a class="icon-footer" href="(970) 476-2566"><i class="bi bi-telephone-fill "></i></a>
     <a class="icon-footer" href="https://www.instagram.com/vistabahnskirentals/"><i class="bi bi-instagram "></i></a>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </body>
+
 </html>

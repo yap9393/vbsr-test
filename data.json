@@ -1,0 +1,124 @@
+[
+    {
+      "marca": "Rossignol",
+      "modelo": "Escaper",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "160cm",
+      "precio": 450,
+      "stock": 6,
+      "imagen": "../Assets/imagenes tienda/modelorossignolescaper.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "K2",
+      "modelo": "Mindbender",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "185cm",
+      "precio": 550,
+      "stock": 2,
+      "imagen": "../Assets/imagenes tienda/modelok2mindbender.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Head",
+      "modelo": "Kore93",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "190cm",
+      "precio": 600,
+      "stock": 2,
+      "imagen": "../Assets/imagenes tienda/modeloheadkore93 (1).jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Blizzard",
+      "modelo": "Brahma",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "188cm",
+      "precio": 520,
+      "stock": 3,
+      "imagen": "../Assets/imagenes tienda/modeloblizzardbrahma.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Armada",
+      "modelo": "Declivity",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "198cm",
+      "precio": 480,
+      "stock": 3,
+      "imagen": "../Assets/imagenes tienda/modeloarmadadeclivity.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "BlackCrows",
+      "modelo": "Junius",
+      "rangoEdad": "Niño",
+      "deporte": "Ski",
+      "tamanio": "85cm",
+      "precio": 180,
+      "stock": 3,
+      "imagen": "../Assets/imagenes tienda/modeloblackcrowsJunius.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Blizzard",
+      "modelo": "Bonafide",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "171cm",
+      "precio": 524,
+      "stock": 7,
+      "imagen": "../Assets/imagenes tienda/modeloblizzardbonifide.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Head",
+      "modelo": "Kore99",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "172cm",
+      "precio": 630,
+      "stock": 2,
+      "imagen": "../Assets/imagenes tienda/modeloheadkore99.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Volkl",
+      "modelo": "Revolt Jr Hopper",
+      "rangoEdad": "Niño",
+      "deporte": "Ski",
+      "tamanio": "128cm",
+      "precio": 350,
+      "stock": 5,
+      "imagen": "../Assets/imagenes tienda/modeloVolklRevolt .jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Salomon",
+      "modelo": "QST Junior",
+      "rangoEdad": "Niño",
+      "deporte": "Ski",
+      "tamanio": "100cm",
+      "precio": 390,
+      "stock": 3,
+      "imagen": "../Assets/imagenes tienda/modelosalomonqstjunior.jpg",
+      "alt": "esquies"
+    },
+    {
+      "marca": "Salomon",
+      "modelo": "QST",
+      "rangoEdad": "Adulto",
+      "deporte": "Ski",
+      "tamanio": "185cm",
+      "precio": 590,
+      "stock": 6,
+      "imagen": "../Assets/imagenes tienda/modelosalomonqst.jpg",
+      "alt": "esquies"
+    }
+  ]
+  
